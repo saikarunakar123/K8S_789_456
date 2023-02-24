@@ -12,7 +12,7 @@ spec:
           app: myjenkins-pod
      spec:
         containers:
-      -   name: myjenkins-container
+        - name: myjenkins-container
           image: jenkins:2.60.3
           ports:
           - containerPort: 8080
